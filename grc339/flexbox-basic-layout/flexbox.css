@@ -9,28 +9,28 @@ body {
 	}
 	
 div.container {
-        display: _____ ;
-        flex-wrap: _____ ;
+        display: flex ;
+        flex-wrap: wrap ;
         max-width: 60em;
         margin: 1em;
         padding 1em;
 }
 
 header {
-    flex: _____ ;
+    flex:1 0 100%;
 }
 
 article {
-    flex: _____ ;
+    flex:1 0 35em;
     margin-right: 1em;
 }
 
 aside {
-    flex: _____ ;
+    flex: 1 0 15em ;
 }
 
 footer {
-    flex: _____ ;
+    flex: 1 0 100%;
     border-top: solid 1px #aaa;
     margin-top: 2em;
 }
@@ -81,7 +81,7 @@ section p {
 @media only screen and (min-width: 60em) {
 
   div.container {
-    margin: _____ ;
+    margin: auto ;
   }
 
 }
