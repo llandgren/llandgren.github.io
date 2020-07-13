@@ -1,0 +1,177 @@
+/*CSS document*/
+
+/*Start of Meyers Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Meyers Reset*/
+
+
+/*Document set up*/
+body {
+    background: rgb(255,254,245);
+    font-family:"lato", sans-serif;
+    font-weight:300;
+    font-style:normal;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    padding: 1em;
+}
+
+/*Header*/
+
+.logo-home{
+    width: 45%;
+    padding: 1em 27.5%
+}
+
+.logo{
+    width: 30%;
+    padding:1em 0;
+    margin: 1em 35% 0;
+}
+
+div #intro-to-useful{
+    background-color: rgb(235,240,225);
+    padding: 1em 2em;
+    line-height: 1.5em;
+}
+
+/*Navigation for all pages*/ 
+nav{
+    display:table;
+    margin: auto;
+}
+
+nav ul{
+    margin-bottom: 1em;
+    list-style-type: none;
+    padding: 1em;
+    
+}
+
+nav li{
+    font-weight: 400;
+    padding: .75em;
+    margin: .25em;
+    display: inline-block;
+    background-color: rgb(215,220,205);
+}
+
+nav li:hover{
+    background-color: rgb(235,240,225);
+}
+
+nav li:target{
+    background-color: rgb(235,240,225)
+}
+
+
+/*Links*/
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a.source{
+    text-decoration: underline;
+}
+
+
+/*Images*/
+
+figure {
+    margin: 0;
+}
+
+figcaption{
+    font-style:italic;
+    padding-bottom: 1em;
+}
+
+img {
+    width: 100%;
+    padding: .5em 0;
+}
+    #love-earth{
+        width:30%;
+        padding: 1em 35%
+    }
+
+/*Paragraphs*/
+
+
+h2{
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-bottom: 0.5em;
+}
+
+#quote{
+    font-weight: 400;
+    font-style: italic;
+}
+
+#team{
+    font-style: italic;
+}
+
+p{
+    padding-bottom: 1.5em;
+    line-height: 2em;
+}
+
+.beginning{
+    font-weight: 400;
+}
+
+h3{
+    font-weight: 700;
+    
+}
+h4{
+    font-style: italic;
+}
