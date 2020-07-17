@@ -195,7 +195,7 @@ section.photo-gallery{
 
 main.photo-gallery{
     position: relative;
-    padding-bottom: calc(60% + 5em);
+    padding-bottom: calc(59% + 6em);
 }
 
 figure.photo-gallery{
