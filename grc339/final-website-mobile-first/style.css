@@ -165,7 +165,7 @@ h2{
 
 p{
     padding-bottom: 1.5em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .inline-link{
@@ -195,7 +195,7 @@ section.photo-gallery{
 
 main.photo-gallery{
     position: relative;
-    padding-bottom: calc(66% + 5em);
+    padding-bottom: calc(60% + 5em);
 }
 
 figure.photo-gallery{
