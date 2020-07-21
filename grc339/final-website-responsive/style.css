@@ -63,18 +63,21 @@ div.container {
     padding: 1em;
 }
 
+section{
+    margin-bottom: 1em;
+}
+
+#intro-to-useful{
+    background-color: rgb(235,240,225);
+    padding: 1em 2em;
+    line-height: 1.5em;
+}
 /*Header*/
 
 .logo{
     width: 30%;
     padding:1em 0;
     margin: 1em 35% 0;
-}
-
-div #intro-to-useful{
-    background-color: rgb(235,240,225);
-    padding: 1em 2em;
-    line-height: 1.5em;
 }
 
 /*Navigation for all pages*/ 
@@ -141,6 +144,27 @@ h2{
     padding-bottom: 0.25em;
 }
 
+p{
+    line-height: 1.5em;
+}
+
+p.teaser { 
+    padding-bottom: 1em;}
+
+section.title-author-date h4{
+    float: left;
+    padding-bottom: 0.5em;
+}
+
+section.title-author-date h5{
+    float: right;
+    padding-bottom: 0.5em;
+}
+
+#intro-to-useful p{
+    padding-bottom:1em;
+}
+
 #quote{
     font-weight: 400;
     font-style: italic;
@@ -148,10 +172,6 @@ h2{
 
 #team{
     font-style: italic;
-}
-
-p{
-    line-height: 1.5em;  
 }
 
 .inline-link{
@@ -179,17 +199,21 @@ h4{
 .teaser3{
     background-color: rgb(235,240,225);
     margin-bottom:1em;
-    padding: 0em;
+    padding: 1em;
+}
+
+section.photo-gallery p{
+    padding: 0 1em;
+}
+
+section.photo-gallery h3{
+   padding: 0 1em 1em; 
 }
 
 /*Photo gallery and radio nav*/
 
 section.photo-gallery{
     background-color:rgb(215,220,205);
-}
-
-section.photo-gallery h3, p{
-    padding:0 1em
 }
 
 main.photo-gallery{
@@ -222,9 +246,8 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 nav.photo-gallery{
 display:grid;
 grid-template-columns: repeat(4, 1fr);
-grid-gap:0.25em;}
-
-label img{padding:0;}
+grid-gap:0.25em;
+}
 
 label:hover{
 opacity: 0.7;
@@ -233,6 +256,13 @@ opacity: 0.7;
 input{
     display: none;
 }
+
+
+/*Footer*/
+footer{
+    padding: 3em 0 0;
+}
+
 
 /*Desktop site*/
 @media screen and (min-width:60em){
@@ -243,6 +273,10 @@ div.container{
     grid-gap:0 2em;
 }
     
+section{
+    margin-bottom: 0em;
+}    
+
 header{
     grid-column: 1/3;
     display:grid;
@@ -270,14 +304,12 @@ main{
     grid-column: 1/2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em 2em;
+    grid-gap: 2em;
 }    
 
 section.teaser{
     grid-column: 1/3;
 }    
-
-}
     
 aside{
     grid-column: 2/3;
@@ -286,8 +318,10 @@ aside{
 nav.photo-gallery{
 display:grid;
 grid-template-columns: repeat(2, 1fr);
-grid-gap:0.25em;}
+margin-top:0;
+grid-gap:0.5em;}
+
     
 footer{
     grid-column: 1/3; 
-}    
+}    }
